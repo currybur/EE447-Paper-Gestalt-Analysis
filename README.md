@@ -12,6 +12,7 @@
 
 ## 统计视觉特征数量分布
 首先是根据前面的研究，确定视觉特征主要来源于图片、表格、公式、页数等，于是统计了这些指标在正负论文样本之间的分布，发现真的有差别。
+
 <img src="https://github.com/currybur/EE447-PaperGestaltAnalysis/raw/master/img/plot_figure.png" width="48%">
 <img src="https://github.com/currybur/EE447-PaperGestaltAnalysis/raw/master/img/plot_table.png" width="48%">
 <img src="https://github.com/currybur/EE447-PaperGestaltAnalysis/raw/master/img/plot_page_num.png" width="48%">
