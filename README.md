@@ -12,10 +12,10 @@
 
 ## 统计视觉特征数量分布
 首先是根据前面的研究，确定视觉特征主要来源于图片、表格、公式、页数等，于是统计了这些指标在正负论文样本之间的分布，发现真的有差别。
-<img src="https://github.com/currybur/EE447-PaperGestaltAnalysis/raw/master/img/plot_figure.png" width="20%">
-<img src="https://github.com/currybur/EE447-PaperGestaltAnalysis/raw/master/img/plot_table.png" width="20%">
-<img src="https://github.com/currybur/EE447-PaperGestaltAnalysis/raw/master/img/plot_page_num.png" width="20%">
-<img src="https://github.com/currybur/EE447-PaperGestaltAnalysis/raw/master/img/plot_formula.png" width="20%">
+<img src="https://github.com/currybur/EE447-PaperGestaltAnalysis/raw/master/img/plot_figure.png" width="48%">
+<img src="https://github.com/currybur/EE447-PaperGestaltAnalysis/raw/master/img/plot_table.png" width="48%">
+<img src="https://github.com/currybur/EE447-PaperGestaltAnalysis/raw/master/img/plot_page_num.png" width="48%">
+<img src="https://github.com/currybur/EE447-PaperGestaltAnalysis/raw/master/img/plot_formula.png" width="48%">
 <!-- <img src="img/plot_figure.png" width="48%">
 <img src="img/plot_table.png" width="48%">
 <img src="img/plot_formula.png" width="48%">
@@ -32,7 +32,7 @@
 知识蒸馏其实可以很复杂，比如在目标检测中提升Faster R-CNN模型的效果[<sup>3</sup>](#refer-anchor-3)，不过我们就是考虑简单地用VGG-19的softmax层来替代0/1标签训练resnet-18。其实后者在原论文中本身表现就很好了，提升空间不大。当然在具体代码实现上要把分类网络替换成回归网络也挺麻烦的，我们并没深入。
 
 ## 总结
-这次确实是炼丹，没学到太多新东西，后悔，应该做疫情汇总网站的😢。
+u1s1这次纯炼丹，自己没学到太多新东西，亏了😢。其实可以做疫情汇总网站的，选题的时候太划水了qaq，非常自责😑。
 
 ## 参考
 <div id="refer-anchor-1"></div>
