@@ -30,7 +30,7 @@
 知识蒸馏其实可以很复杂，比如在目标检测中提升Faster R-CNN模型的效果[<sup>3</sup>](#refer-anchor-3)，不过我们就是考虑简单地用VGG-19的softmax层来替代0/1标签训练resnet-18。其实后者在原论文中本身表现就很好了，提升空间不大。当然在具体代码实现上要把分类网络替换成回归网络也挺麻烦的，我们并没深入。
 
 ### 总结
-u1s1这纯炼丹，自己没学到太多新东西😢。其实可以做疫情汇总网站的，选题的时候太划水了qaq。
+（u1s1这纯炼丹，自己没做也没学到太多新东西😢。
 
 ***
 
@@ -41,11 +41,11 @@ u1s1这纯炼丹，自己没学到太多新东西😢。其实可以做疫情汇
 > `python lgb_train.py`  
 
 以及CNN
-> `python nn_process.py`
+> `python nn_process.py`  
 > `python nn_train.py`  
 
-然后
-> `predict.py`
+然后  
+> `python predict.py`
 
 当然里面有些路径要改改。original_paper.py是Deep Gestalt作者在colab上写的一个[例子](https://colab.research.google.com/drive/1XpK6B5adEZNKtbjr_2lrxZYlEK4RlBr7?fbclid=IwAR2nAPabSLoSdCLDqXCgyTZmVNT62tovyHaN0QDEEJYIdC9WLZ9qmRTefFs#scrollTo=7Zj0ImSAroEH)。score_feature.py本来是想给每页打分然后作为特征继续训练的，不过感觉没什么用。
 
